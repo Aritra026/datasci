@@ -14,10 +14,10 @@ st.info('You Can Find Here!!')
 
 
 st.page_link("Home.py", label="Home", icon="🏠")
-st.page_link("pages/Company_details.py", label="Company Details", icon="📜")
+st.page_link("pages\Company_details.py", label="Company Details", icon="📜")
 # st.success('This is a success message!', icon="✅")
-st.page_link("pages/Details_about_us.py", label="About Us", icon="ℹ️")
-st.page_link("pages/Predction.py", label="Prediction", icon="📌")
+st.page_link("pages\About_us.py", label="About Us", icon="ℹ️")
+st.page_link("pages\Predction.py", label="Prediction", icon="📌")
 # st.page_link("app.py", label="Prediction", icon="4️⃣")
 st.page_link("https://naukri-dev.netlify.app/#", icon="👉",label="Aim🔎Seeker")
 
