@@ -4,7 +4,7 @@
 # import nltk
 
 import streamlit as st
-import docx2txt
+#import docx2txt
 import re
 import pickle
 import re
@@ -78,7 +78,20 @@ if __name__ == "__main__":
 
 
     
-    
+import subprocess
+import sys
+
+# Function to install a Python package using pip
+def install_package(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+# Install docx2txt if not already installed
+try:
+    import docx2txt
+except ImportError:
+    print("docx2txt not found. Installing...")
+    install_package("docx2txt")
+    import docx2txt
     
     
     
